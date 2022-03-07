@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar {
+    background: #000;   
+}
+.navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; 
+}
+/* curosel */
+.height00{
+    width: 100%;
+    height: 450px; 
+    background: url(../img/image1.jpeg);
+    background-size: cover;  
+}
+.height02{
+    width: 100%;
+    height: 450px; 
+    background: url(../img/image2.jpeg);
+    background-size: cover;  
+}
+.height03{
+    width: 100%;
+    height: 450px; 
+    background: url(../img/image3.jpeg);
+    background-size: cover;  
+}
+.display-4{
+    color: #fff;
+}
+/* 3icom */
+.icon{
+    font-size: 45px;
+}
+/* get started */
+.get-start{
+    position: relative;
+    background: url(../img/pc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.get-text h2 {
+    color: #fff;
+}
+.overlay-g{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+.y-logo{
+    background: url(../img/image6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 250px;
+}
+.overlay-l{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+}
+.logo-l {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.newsletter p.lead {
+    margin-bottom: 15px;
+}
+/* lightbox */
+.l-text h2{
+    color: #fff;
+    margin-top: 20px;
+}
+.overlay-l i{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 50px;
+}
+/* photo gallery */
+.photo-gallery img{
+    min-height: 250px;
+}
+/* neswletter */
+.news-head h2{
+    color: #fff;
+}
+.footer{
+    background: #000;
+
+}
+.footer h3{
+    color: #fff;
+}
+/* about */
+.about-us{
+    background: url(../img/image2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+}
+.overlay-about{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+}
+.to-do img{
+    width: 300px;
+    height: 300px;
+}
+.card-icon-1 i{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.lorem-ipsum .card{
+    margin-bottom: 20px;
+}
+/* services */
+.services{
+    background: url(../img/image3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+}
+/* blog */
+.blog{
+    background: url(../img/image5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+}
+.ob{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+/* contact */
+.contact{
+    background: url(../img/image4.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+    position: relative;
+}
